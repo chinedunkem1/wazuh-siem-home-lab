@@ -1,0 +1,5 @@
+credentials.local.txt
+evidence/private/
+*.log
+Thumbs.db
+.DS_Store

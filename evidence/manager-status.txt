@@ -1,0 +1,29 @@
+﻿WAZUH HOME LAB - MANAGER STATUS
+Collected: 2026-08-25T01:23:09.8060613+01:00
+
+=== Services ===
+active
+active
+active
+active
+
+=== Agents ===
+
+Wazuh agent_control. List of available agents:
+   ID: 000, Name: CJ (server), IP: 127.0.0.1, Active/Local
+   ID: 001, Name: Windows-Endpoint, IP: any, Active
+
+List of agentless devices:
+
+
+=== Listening ports ===
+LISTEN 0      128               0.0.0.0:1515       0.0.0.0:*
+LISTEN 0      128               0.0.0.0:1514       0.0.0.0:*
+LISTEN 0      511               0.0.0.0:8443       0.0.0.0:*
+LISTEN 0      2048              0.0.0.0:55000      0.0.0.0:*
+LISTEN 0      2048                 [::]:55000         [::]:*
+
+=== FIM demo alerts ===
+2026-08-25T01:19:26.896+0100 | Level 5 | Rule 554 | File added to the system. | Event: added | MITRE: N/A
+2026-08-25T01:19:46.985+0100 | Level 7 | Rule 550 | Integrity checksum changed. | Event: modified | MITRE: T1565.001
+2026-08-25T01:20:05.836+0100 | Level 7 | Rule 553 | File deleted. | Event: deleted | MITRE: T1070.004, T1485
